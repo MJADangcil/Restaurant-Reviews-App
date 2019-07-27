@@ -332,14 +332,14 @@ nav h1 a {
     max-width: 100%;
   }
 
-  header #breadcrumb {
-    order: 1;
-    padding: 10px 0px 10px 15px;
+  .inside header {
+    order: 0;
     width: 100%;
   }
 
-  .inside header {
-    order: 0;
+  header #breadcrumb {
+    order: 1;
+    padding: 10px 0px 10px 15px;
     width: 100%;
   }
 
