@@ -316,14 +316,31 @@ nav h1 a {
   position: relative;
   width: 85%;
   margin: auto;
-  border-radius: 20px 0px 20px 0px;
+  /*border-radius: 20px 0px 20px 0px;*/
 }
 
 #reviews-list li p {
   margin: 0 0 10px;
 }
+/*git 
+#reviews-list li p:nth-child(1), p:nth-child(2) {
+  display: inline-block;
+}
 
+#reviews-list li p:nth-child(1) {
+  background: #252831;
+  font-size: 1.5em;
+  color: #fff;
+  padding: 10px 0px 10px 20px;
+}
 
+#reviews-list li p:nth-child(2) {
+  background: #252831;
+  color: #676767;
+  font-size: 1.2em;
+  padding: 10px 0px 10px 20px;
+}
+*/
 #restaurant-hours td {
   color: #666;
 }
