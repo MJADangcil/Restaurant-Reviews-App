@@ -313,14 +313,16 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
   position: relative;
   width: 85%;
+  margin: auto;
+  border-radius: 20px 0px 20px 0px;
 }
 
 #reviews-list li p {
   margin: 0 0 10px;
 }
+
 
 #restaurant-hours td {
   color: #666;
@@ -348,5 +350,43 @@ nav h1 a {
     position: relative;
     height: 270px;
     width: 100%;
+  }
+
+  .inside #restaurant-container {
+    width: 100%;
+  }
+
+  .inside #restaurant-name, #restaurant-img, #restaurant-address, #restaurant-hours {
+    padding-left: 5vw;
+  }
+
+  .inside #restaurant-cuisine {
+    width: 100%;
+  }
+
+  .inside #reviews-container {
+    width: 100%;
+  }
+
+  .inside #reviews-container h2 {
+    padding-left: 5vw;
+  }
+
+  .inside #reviews-list li {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .inside #restaurant-name, .inside #restaurant-img, .inside #restaurant-address, .inside #restaurant-hours {
+    padding-left: 2.5vw;
+  }
+
+  .inside #restaurant-cuisine {
+    width: 100%;
+  }
+
+  .inside #reviews-container h2 {
+    padding-left: 2.5vw;
   }
 }
