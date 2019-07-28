@@ -15,6 +15,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 + HTML
 + CSS
 + JavaScript
++ MapBox
 
 ## Contributors
 [Michael Josh A. Dangcil](https://github.com/MichaelJoshDangcil)
