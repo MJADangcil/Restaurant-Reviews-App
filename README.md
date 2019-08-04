@@ -1,5 +1,5 @@
 # Restaurant-Reviews-App
-This restaurant reviews application shows restaurant reviews on both mobile and desktop platforms.
+This restaurant reviews application shows restaurant reviews on both mobile and desktop platforms. It is a fully responsive web design that meets WAI-ARIA accessibility standards and works in offline mode with the help of the Cache API and service worker.
 
 ## Instructions
 1. Download the project files.
